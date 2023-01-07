@@ -1,0 +1,41 @@
+body {
+  .vids-cont {
+    position: relative;
+    width: 100%;
+    min-height: 1000vh;
+
+    video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      transition: all 0.3s ease-in-out;
+    }
+
+    // .first-video {
+    //   top: 0;
+    //   bottom: 0;
+    //   right: 0;
+    //   left: 0;
+    //   width: 100%;
+    // }
+
+    .smaller {
+      transition: all 0.3s ease-in-out;
+      top: 2rem;
+      bottom: 0;
+      right: 0;
+      left: 2rem;
+      width: 25%;
+      height: 25vh;
+      border: 2px solid #aaa;
+      border-radius: 1rem;
+      background-color: #333;
+      z-index: 10;
+      cursor: pointer;
+    }
+  }
+}
